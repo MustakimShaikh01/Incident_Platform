@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  api:
+    build: ./services/api
+    ports:
+      - "8080:8080"
+
+  engine:
+    build: ./services/engine
+    ports:
+      - "5001:5000"
+
+  ui:
+    build: ./services/ui
+    ports:
+      - "3000:3000"

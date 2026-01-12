@@ -1,0 +1,24 @@
+# General
+.env
+.DS_Store
+
+# Python
+venv/
+__pycache__/
+*.pyc
+state/
+
+# Java
+target/
+*.log
+
+# Node
+node_modules/
+dist/
+
+# Docker
+*.tar
+
+# IDE
+.idea/
+.vscode/
